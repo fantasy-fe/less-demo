@@ -1,0 +1,825 @@
+h6, h5 {
+	font-weight:normal;
+}
+
+.h_figure {margin:0; padding:0; line-height:0;}
+
+.dot_bottom {
+	padding-bottom:8px;
+	background:url(http://source.qunar.com/site/images/2011/dotline.gif) no-repeat left bottom;
+}
+
+.dot_bottom1 {
+	padding-bottom: 4px;
+	margin-bottom: 3px;
+	background:url(http://source.qunar.com/site/images/2011/dotline.gif) no-repeat left bottom;
+}
+
+
+.solid_line {
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.v20 {
+	height:10px;
+	margin-bottom:10px;
+}
+
+.v10 {
+	height:5px;
+	margin-bottom:5px;
+}
+
+.v6 {
+	height:3px;
+	margin-bottom:3px;
+}
+
+.ie6 .v6, .ie7 .v6 {margin:-7px 0 -4px;}
+.ie6 .v10, .ie7 .v10 {margin:-7px 0 -2px;}
+.ie6 .v20, .ie7 .v20 {margin:-7px 0 10px;}
+
+.h_main {
+	width:980px;
+	margin:0 auto;
+	padding:5px;
+	position:relative;
+	background-color:#fff;
+}
+
+.ie7 .h_main {position:static;}
+
+.h_main {display:block;background-color:#FFF;zoom:1;*height:1%}
+.h_main:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+
+.h_ads {
+	width:238px;
+	float:right;
+}
+
+.h_sections {
+	width:730px;
+	float:left;
+}
+
+.h_hgroup {
+	height:32px;
+	background:url(http://source.qunar.com/site/images/2011/QN1HP2.png) no-repeat left top;
+	padding:0 10px;
+	position:relative;
+}
+
+.h_hgroup h2 {
+	font:bold 14px/32px tahoma;
+	float:left;
+	margin:0 40px 0 0;
+}
+
+.hotlinks {
+	position:absolute;
+	top:7px;
+	right:10px;
+	font-weight:normal;
+	color:#0069ca;
+}
+
+.morelinks {
+	position:absolute;
+	top:0;
+	right:0;
+	font-weight:normal !important;
+	color:#888;
+}
+
+.morelinks a {
+	color:#888;
+}
+
+.morelinks a:hover {
+	color:#f60;
+}
+
+.s_blocks {
+	padding:10px;
+	width:710px;
+	overflow:hidden;
+}
+
+.s_block {
+	float:left;
+	margin-right:10px;
+	padding-right:9px;
+	border-right:1px solid #e0e0e0;
+	background-color:#fff;
+}
+
+.s_block_x3 {
+	width:223px;
+}
+
+.ie6 .s_block_x3 h3 {
+	width:223px;
+}
+
+.s_block_x2 {
+	width:345px;
+}
+
+.ie6 .s_block_x2 h3 {
+	width:345px;
+}
+
+.s_block_x1 {
+	width:710px;
+	margin-right:0;
+	padding-right:0;
+	border:none;
+}
+
+.s_block_last {
+	margin-right:0;
+	padding-right:0;
+	border:none;
+	width:344px;
+}
+
+.s_block p {
+	color:#888;
+}
+
+.s_block h3 {
+	margin-bottom:6px;
+	font-weight:normal;
+	position:relative;
+}
+
+.block_list{
+    background-color:#fff;
+}
+
+.block_list li {
+	margin-top:10px;
+}
+
+.block_list p {
+	margin-top:10px;
+}
+
+.block_list span {
+	float:right;
+}
+
+.block_list .h_figure {
+	float:left;
+	margin-right:10px;
+}
+
+.h_figure figcaption {
+	background-color:#f2f1f1;
+	width:100%;
+	height:22px;
+	line-height:22px;
+	text-align:center;
+}
+
+.text_list {
+	line-height:1.9;
+}
+
+.text_list li {
+	padding-left:8px;
+	background:url(http://source.qunar.com/site/images/2011/list_disc.gif) no-repeat left center;
+}
+
+.text_list h6 span {
+	float:right;
+}
+
+.text_list_alt {
+	line-height:1.6;
+}
+
+.switch_list li {
+	margin-top:6px;
+	padding:4px 5px 8px 153px;
+	position:relative;
+	background-color:#f1f1f1;
+}
+
+.ie7 .switch_list li, .ie6 .switch_list li {
+	width:192px;
+}
+
+.switch_list .h_figure {
+	position:absolute;
+	left:8px;
+	top:28px;
+}
+
+.switch_list h6 {
+	margin-left:-145px;
+}
+
+.switch_list span {
+	position:absolute;
+	right:5px;
+	top:4px;
+}
+
+.switch_list p {
+	margin:1px 0;
+	line-height:1.8;
+}
+
+.switch_list .deactive {
+	position:relative;
+	padding:0 5px 0 8px;
+	background:#fff url(http://source.qunar.com/site/images/2011/list_disc.gif) no-repeat left center;
+}
+
+.ie7 .switch_list .deactive, .ie6 .switch_list .deactive {
+	width:337px;
+}
+
+.deactive span {
+	float:none;
+	position:absolute;
+	right:5px;
+	top:0;
+}
+
+.deactive h6 {
+	margin-left:0px;
+}
+
+.deactive figure, .deactive p, .deactive .dianping, .deactive hr {
+	display:none;
+}
+
+/* specification START */
+
+.sec_recommend .s_blocks {
+	padding:10px 0;
+	width:730px;
+}
+
+.sec_recommend .s_block {
+	border:none;
+	padding-right:10px;
+}
+
+.sec_recommend .s_block_x3 {
+	width:230px;
+}
+
+.sec_recommend .s_block_last {
+	margin-right:0;
+	padding-right:0;
+	border:none;
+}
+
+.sec_recommend p {
+	margin:3px 0 6px;
+	line-height:1.6;
+}
+
+.sec_recommend h5 {
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+
+.sec_hotel .block_list p {
+	margin-top:3px;
+}
+
+.sec_tuan h3 {
+	font-weight:bold;
+}
+
+.sec_tuan h2 {
+	margin:0 20px 0 0;
+}
+
+.sec_tuan .h_hgroup {
+	z-index:5;
+}
+
+.sec_recommend .s_blocks { height:146px;}
+.sec_tuan .s_blocks { height:180px;}
+.sec_flight .s_block_x1 { height:144px;}
+.sec_hotel .s_blocks { min-height: 295px; _height: 315px;}
+
+.ie6 .sec_hotel .s_blocks, .ie7 .sec_hotel .s_blocks { height:312px;}
+
+/* specification END */
+
+.flight_t {
+	width:345px;
+	color:#888;
+}
+
+.flight_t td {
+	padding:3px 0;
+}
+
+.flight_td_41 {
+	width:150px;
+}
+
+.flight_td_42 {
+	
+}
+
+.flight_td_43 {
+	text-align:right;
+}
+
+.flight_td_44 {
+	text-align:right;
+	width:90px;
+}
+
+.flight_td_31 {
+	width:150px;
+}
+
+.flight_td_32 {
+	text-align:right;
+}
+
+.flight_td_33 {
+	text-align:right;
+	width:90px;
+}
+
+
+.dp_bar {
+	position:relative;
+	width:86px;
+	height:7px;
+	margin:2px 0;
+}
+
+.dp_bdt, .dp_bdb {
+	position:absolute;
+	left:0;
+	width:84px;
+	height:1px;
+	display:block;
+	background-color:#0069ca;
+	margin:0 1px;
+	z-index:100;
+}
+.dp_bdt { top:0;}
+.dp_bdb { top:6px;}
+
+.dp_bdl, .dp_bdr {
+	position:absolute;
+	top:0;
+	width:1px;
+	height:5px;
+	display:block;
+	background-color:#0069ca;
+	margin:1px 0;
+	z-index:100;
+}
+.dp_bdl { left:0;}
+.dp_bdr { right:0;}
+
+.dp_dot11, .dp_dot12, .dp_dot21, .dp_dot22, .dp_dot31, .dp_dot32 {
+	width:16px;
+	height:1px;
+	border-left:1px solid #0069ca;
+	border-right:1px solid #0069ca;
+	position:absolute;
+	z-index:100;
+}
+
+.dp_dot11 { left:17px; top:1px;}
+.dp_dot12 { left:51px; top:1px;}
+.dp_dot21 { left:17px; top:3px;}
+.dp_dot22 { left:51px; top:3px;}
+.dp_dot31 { left:17px; top:5px;}
+.dp_dot32 { left:51px; top:5px;}
+
+.dp_score {
+	position:absolute;
+	z-index:10;
+	width:84px;
+	height:5px;
+	background-color:#FEB902;
+	left:1px;
+	top:1px;
+}
+
+.dp_score00 { width:1px;}
+.dp_score05 { width:8px;}
+.dp_score10 { width:16px;}
+.dp_score15 { width:25px;}
+.dp_score20 { width:33px;}
+.dp_score25 { width:42px;}
+.dp_score30 { width:50px;}
+.dp_score35 { width:59px;}
+.dp_score40 { width:67px;}
+.dp_score45 { width:76px;}
+.dp_score50 { width:84px;}
+
+.ie6 .dp_bdt, .ie6 .dp_bdb, .ie6 .dp_bdl, .ie6 .dp_bdr,
+.ie6 .dp_dot11, .ie6 .dp_dot12, .ie6 .dp_dot21, .ie6 .dp_dot22, .ie6 .dp_dot31, .ie6 .dp_dot32,
+.ie6  .dp_score{
+	overflow:hidden;
+}
+
+
+
+
+
+.qcbox { border:1px solid #abadb3; background-color:#fff; color:#555; }
+.qcbox .labelContainer { display:none; }
+.qcbox .boxWrapper { position:relative; z-index:1; }
+.qcbox .boxContainer { position:absolute; z-index:1; top:2px; right:2px; padding-left:4px; height:19px; background-color:#fff; cursor:pointer; overflow:hidden; }
+.qcbox .sinfo { float:left; display:inline; padding:0; font:normal 14px/19px simsun,arial,sans-serif; _line-height:21px; }
+.qcbox .infotext { color:#ccc; }
+.qcbox .sicon { float:left; display:inline; width:20px; height:19px; background:url(http://source.qunar.com/site/images/btns/bt_searchv3.png) no-repeat 1px -703px; }
+.qcbox .textbox { border:0 none; padding:1px 0 2px; width:100%; height:20px; height:18px\9; font:normal 14px/18px simsun,arial,sans-serif; _line-height:20px; background-color:#fff; color:#555; }
+.qcbox .popContainer { position:relative; z-index:1000; clear:both; }
+.qcbox .popPanel { position:absolute; z-index:100; top:0; left:-1px; border:1px solid #abadb3; background-color:#fff; }
+.qcbox .errtext { color:red !important; }
+.qbc_fin { border: 1px solid #c7a15a; }
+
+.qcbox .ill { width:185px; }
+.qcbox .illrow { line-height: 22px; }
+.qcbox .illrow td { padding:0 0 0 4px !important; overflow:hidden; cursor: pointer; white-space:nowrap; }
+.qcbox td.illn { line-height: 24px; font-size:13px; padding-left:8px; text-align:left; font-family:simsun; padding-left:4px; }
+.qcbox .illt { color: green; line-height: 24px; font-size:11px; padding-right:4px; text-align:right; font-family:arial, sans-serif, SimSun; }
+.qcbox .tllover td { color: white; background-color:#4778da; }
+.qcbox .keystring { color:#f60; }
+.qcbox .error td { font-size:13px; background-color:#c30; color:#fff; }
+
+.qcity .cityinput { width:360px; }
+.qcity .cityinput .hint { padding:5px; font-size:12px; }
+.qcity .cityinput .closeImg { display:block; float:right; width:14px; height:14px; cursor:pointer; }
+.qcity .cityinput hr { clear:both; border:0; border-bottom:1px dashed #bbb; color:#fff; }
+.qcity .cityinput ul { margin:0; padding:0; height:1%; }
+.qcity .cityinput ul:after { clear:both; display:block; height:0; visibility:hidden; content:"\20"; }
+.qcity .cityinput ul li { float:left; padding:5px 0; width:20% !important; text-align:center; }
+.qcity .cityinput ul li a { padding:2px 0; color:#555 !important; }
+.qcity .cityinput ul li a:hover { text-decoration:none; color:#555; }
+.qcity .cityinput .inter ul li { width:24% !important; }
+.qcity .cityinput_hotel { width:362px; }
+.qcity .cityinput_hotel ul li { width:25% !important; }
+
+.qdate .sicon { background-position:-25px 3px; }
+.qdate .dpanel { width:340px; *zoom:1; }
+.qdate .dpanel:after { clear:both; display:block; height:0; visibility:hidden; content:"\20"; }
+.qdate .dpart { position:relative; z-index:1; float:left; display:inline; margin-left:-1px; border-left:1px solid #ccc; width:170px; color:#000; overflow:hidden; }
+.qdate .dpart h3 { height:24px; font:normal 12px/24px tahoma,arial,sans-serif; text-align:center; background-color:#fff; color:#0D68C1; }
+.qdate .dpart table { margin:1px; padding:0; border:0 none; border-collapse:collapse; width:168px; }
+.qdate .dpart td { margin:0; padding:0 !important; width:24px; height:18px; font:normal 12px/18px tahoma,arial,sans-serif; text-align:center; vertical-align:middle; }
+.qdate .dpart .thead td { border-bottom:1px solid #ccc; height:21px; line-height:21px; }
+.qdate .upTd { position:absolute; top:0; left:0; width:24px; height:24px; background:url(http://source.qunar.com/site/images/btns/bt_searchv3.png) no-repeat -44px -699px; cursor:pointer; }
+.qdate .downTd { position:absolute; top:0; right:0; width:24px; height:24px; background:url(http://source.qunar.com/site/images/btns/bt_searchv3.png) no-repeat -62px -699px; cursor:pointer; }
+.qdate .cnone { color:#999; cursor:default; }
+.qdate .holi { color:#c60b02; }
+.qdate .today { color:#00f; }
+.qdate .curr { background-color:#fdab00; color:#fff; }
+.qdate .othr { background-color:#6899ff; color:#fff; }
+.qdate .onmouseover { background-color:#fdab00; color:#fff; cursor:pointer; }
+.toD .onmouseover { background-color:#6899ff; color:#fff; cursor:pointer; }
+.qdate .out { background-color:transparent; color:#999; cursor:not-allowed; }
+
+.hotCityNav { margin-top:4px; border-bottom:1px solid #ddd; _height:1%; overflow:hidden; }
+.hotCityNav span { position:relative; bottom:-1px; float:left; display:inline; margin-right:8px; padding:0 8px; border:1px solid #ddd; height:18px; font-size:12px; line-height:18px; text-align:center; background-color:#fff; color:#0069ca; cursor:pointer; }
+.hotCityNav span.active { background-color:#e8edf1; }
+
+.showblock{background:none repeat scroll 0 0 #FFFFFF;font-size:12px;line-height:22px;margin:0;padding:6px 10px;width:328px;}
+.showblock b.oymTitle{display:block;font-size:14px;font-weight:700;}
+.showblock p{border-bottom:1px dashed #CCCCCC;margin-bottom:8px;padding-bottom:8px;word-spacing:6px;}
+.showblock p.last{border-bottom:0 none;margin-bottom:0;padding-bottom:0;}
+.showblock a{color:#0069CA;cursor:pointer;white-space:nowrap;}
+.showblock a:hover{color:#FF6600;}
+
+.dbg1,.dbg2,.dbg3,.dbg4,.dbg5,.dbg6,.dbg7,.dbg8,.dbg9,.dbg10,.dbg11,.dbg12{background:url("http://source.qunar.com/site/images/btns/bt_searchv3.png") no-repeat scroll 0 0 transparent;}
+.bgCalender1,.bgCalender2,.bgCalender3,.bgCalender4,.bgCalender5,.bgCalender6,.bgCalender7,.bgCalender8,.bgCalender9,.bgCalender10,.bgCalender11,.bgCalender12{background:url("http://source.qunar.com/site/images/btns/bt_searchv3.png") no-repeat scroll 0 0 transparent;}
+.dbg1,.bgCalender1{background-position:36px 60px;}
+.dbg2,.bgCalender2{background-position:-134px 60px;}
+.dbg3,.bgCalender3{background-position:-306px 60px;}
+.dbg4,.bgCalender4{background-position:36px -100px;}
+.dbg5,.bgCalender5{background-position:-134px -100px;}
+.dbg6,.bgCalender6{background-position:-306px -100px;}
+.dbg7,.bgCalender7{background-position:36px -257px;}
+.dbg8,.bgCalender8{background-position:-134px -257px;}
+.dbg9,.bgCalender9{background-position:-306px -257px;}
+.dbg10,.bgCalender10{background-position:36px -412px;}
+.dbg11,.bgCalender11{background-position:-134px -412px;}
+.dbg12,.bgCalender12{background-position:-306px -412px;}
+
+.searchpnl { padding:4px 0 0; background:url(http://source.qunar.com/site/images/btns/bt_searchv3.png) repeat-x 0px -1311px; *zoom:1; }
+
+.searchBox { width:360px; color:#555; }
+.searchBox .qn_title { padding:4px 0 0 15px; width:345px; height:30px; font:bold 14px/28px arial; background:url(http://source.qunar.com/site/images/btns/bt_searchv3.png) repeat-x 0px -1191px;overflow:hidden;zoom:1;}
+.searchBox .qn_title .info { float:right; display:inline; padding-right:5px; font:normal 12px/29px simsun,arial,sans-serif; }
+.searchBox .qn_title ul { width:185px; }
+.searchBox .qn_title li { float:left; display:inline; padding-left:10px; cursor:pointer; }
+.searchBox .qn_title li span { float:left; padding-right:10px; padding-bottom:2px; cursor:pointer; }
+.searchBox .qn_title li.active { background:url(http://source.qunar.com/site/images/btns/bt_searchv3.png) 0px -1235px no-repeat; cursor:default; }
+.searchBox .qn_title li.active span { background:url(http://source.qunar.com/site/images/btns/bt_searchv3.png) 100% -1270px no-repeat; cursor:default; }
+.searchBox .ct { padding:15px 15px 5px; min-height:129px; _height:129px; }
+.searchBox .tblSearch { border:0; width:100%; font-family:simsun; font-size:12px; }
+.searchBox .tblSearch th { padding:5px 0; width:40px; }
+.searchBox .tblSearch th span.t { display:block; padding-top:0; *padding-top:1px; font-weight:700; }
+.searchBox .tblSearch td { padding:5px 0; }
+.searchBox .tblSearch td.arriDate { height:25px; }
+.searchBox .ft { border-top:1px solid #e3e3e3; height:24px; text-align:center; color:#555; }
+.searchBox .ft p { padding-top:6px; *padding-top:8px; font-family:simsun; }
+
+.hotelSearch { float:right; display:inline; margin-left:-1px; padding-left:5px; border-left:1px solid #ddd; }
+.hotelSearch .qn_title .info { background:url(http://source.qunar.com/site/images/btns/bt_searchv3.png) 100% -977px no-repeat; }
+.hotelSearch .ct { background:#f9f9f9 url(http://source.qunar.com/site/images/btns/bt_searchv3.png) 100% -1008px no-repeat; }
+.flightSearch { float:left; display:inline; margin-right:-1px; padding-right:4px; border-right:1px solid #ddd; }
+.flightSearch .qn_title { padding-left:5px; width:355px; }
+.flightSearch .ct { background:#f9f9f9 url(http://source.qunar.com/site/images/btns/bt_searchv3.png) 100% -736px no-repeat; }
+
+.cityInputWrap { padding-left:24px; height:21px; }
+.cityInputWrap2 { height:21px; }
+.cityInputWrap2 span.t { float:left; display:block; padding-top:2px; *padding-top:3px; width:24px; overflow:hidden; }
+.cityInputWrap2 span.t2 { float:left; display:block; padding-left:15px; padding-top:4px; *padding-top:3px; width:24px; overflow:hidden; }
+.keyInputWrap { padding-left:24px; position:relative;z-index:9;width:180px;float:left;}
+.dateInputWrap span.t { float:left; display:block; padding-top:2px; *padding-top:3px; width:24px; overflow:hidden; }
+.methodWrap { height:21px;padding-left:25px; }
+.methodWrap .radio { float:left; margin:3px 6px 0 0; *margin-top:4px; width:13px; height:13px; cursor:pointer; }
+.methodWrap label { float:left; margin-right:24px; padding-top:1px; *padding-top:3px; white-space:nowrap; cursor:pointer; }
+
+.qcbox { float:left; display:inline; width:110px; }
+.qcbox .boxContainer { height:15px; }
+.qcbox .sinfo { font:normal 12px/15px simsun,arial,sans-serif; _line-height:17px; }
+.qcbox .sicon { height:15px; background-position:3px -703px; }
+.qcbox .textbox { padding:1px 4px 2px; width:102px; height:16px; height:14px\9; font:normal 12px/14px simsun,arial,sans-serif; _line-height:16px; }
+.qdate { float:left; display:inline; width:173px; }
+.qdate .textbox { padding:1px 4px 2px; width:165px; }
+.qqc { float:left; display:inline; width:173px; }
+.qqc .textbox { padding:1px 25px 2px 4px; width:144px; }
+.hotelSearch .qcity { float:left; display:inline; width:173px; }
+.hotelSearch .qcity .textbox { padding:1px 4px 2px; width:165px; }
+
+.searchButton { position:relative; z-index:3; float:right; display:inline; margin:0; border:0; width:70px; height:22px; font-family:simsun; line-height:22px; _line-height:24px; background:url(http://source.qunar.com/site/images/btns/bt_searchv3.png) no-repeat 0px -600px; color:#fff; cursor:pointer; overflow:hidden; outline:none; }
+.searchButton:hover { background-position:0px -627px; color:#fff; }
+.searchButton:active { background-position:0px -654px; color:#fff; }
+.searchButton span { display:block; margin:0 4px; height:22px; line-height:22px; background:#f60 url(http://source.qunar.com/site/images/btns/bt_searchv3.png) no-repeat -7px -600px; cursor:pointer; }
+.searchButton:hover span { background-position:-7px -627px; color:#fff !important; }
+.searchButton:active span { background-position:-7px -655px; color:#fff !important; }
+
+.qn_tabs { margin-top:6px; border-left:1px solid #c9c9c9; height:26px; overflow:hidden; float:left; display:inline;}
+.qn_tabs li { float:left; display:inline; margin-left:-1px; border:1px solid #c9c9c9; border-width:1px 1px 0; height:25px; }
+.qn_tabs li a { float:left; display:inline; padding:0 10px; border-bottom:1px solid #c9c9c9; font-family:tahoma; background-color:#fff; line-height:24px; outline:none; }
+.qn_tabs li a:hover { color:#f60; }
+.qn_tabs li.more { padding-top:1px; border-top:0; border-right:0; }
+.qn_tabs li.more a { font-weight:700; }
+.qn_tabs li.active a {  border-bottom:1px solid #fff; }
+
+.px { display:none; clear:both; padding:2px 0 9px; height:15px; }
+.px input { margin:0 2px 0 12px; width:13px; height:13px; vertical-align:middle; }
+.px label { font-family:tahoma; vertical-align:middle; }
+.pxroundtrip { margin-top:-26px; }
+.hotelpx { padding-left:52px; visibility:hidden; }
+
+
+.cs { float:left; height:22px; position:relative; margin-top:5px;}
+.csSelect{position:relative;width:90px;}
+.csStitle{cursor:pointer;border:1px solid #b7b7b7;padding:1px 4px;width:82px;background: url("http://source.qunar.com/site/images/new_main/icon_MoreNextDays.gif") no-repeat right center #FFFFFF;position:relative;}
+.csSarrow {
+	width:18px;
+	border-left:1px solid #b7b7b7;
+	position:absolute;
+	right:0;
+	top:0;
+	height:20px;
+	display:none;
+}
+.csSarrow b {
+	border-width: 4px 4px;
+	border-style: solid;
+	border-color: #a6a6a6 #fff #fff #fff;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	position:absolute;
+	right:5px;
+	top:9px;
+	display:none;
+}
+
+.csSlist{display:none;position:absolute;background:#fff;width:100%;border:1px solid #bababa;border-top:0;overflow-y:auto;overflow-x:hidden;}
+.csSlist li{line-height:auto !important;margin:0 !important;background:#FFF;}
+.csSlist a{display:block;padding:2px 4px;color:#555;outline:none;background:#fff;height:16px;width:90px;}
+.csSlist a:hover{background:#0069ca;color:#fff;}
+
+
+.loading{background:url(http://source.qunar.com/site/images/new_main/m_loading.gif) no-repeat center center;}
+
+/*对联广告*/
+.dlAd { position:relative; width:100%; height:0; }
+.dlAd .dll { position:absolute; top:0; left:-130px; width:120px; }
+.dlAd .dll_dm { display:none; }
+.dlAd .dlr { position:absolute; top:0; right:-130px; width:120px; }
+.dlAd .dlr_dm { display:none; }
+.dlAd .viewmore { display:none; }
+
+/*手机版去哪儿*/
+.dlhome{width:730px;overflow:hidden;}
+.dlhome .hd{background:none repeat scroll 0 0 #F9F9F9;border-bottom:1px solid #DDDDDD;height:31px;padding:0 10px;}
+.dlhome .hd .m{display:inline;float:right;margin-top:5px;}
+.dlhome .hd .qn_title{font:bold 14px/32px tahoma;}
+.dlhome .ct{padding:8px 0;}
+.dlhome .dlist{}
+.dlhome .dlist:after{clear:both;content:" ";display:block;height:0;visibility:hidden;}
+.dlhome .dlist li{background:url("http://source.qunar.com/site/images/wap/dlhome.split.png") repeat-y scroll 0 0 transparent;display:inline;float:left;margin-left:-1px;padding-left:1px;}
+.dlhome .dlist a{color:#0069CA;display:block;font:12px/18px tahoma;height:54px;outline:medium none;}
+.dlhome .dlist a img{vertical-align:middle;}
+.dlhome .dlist li .symbian,.dlhome .dlist li .iphone,.dlhome .dlist li .android,.dlhome .dlist li .score{background:url("http://source.qunar.com/site/images/wap/icon_wrap.png") no-repeat scroll 0 0 transparent;display:inline;float:left;}
+.dlhome .dlist li .symbian{background-position:0 -92px;height:25px;margin:15px 7px 0 10px;width:113px;}
+.dlhome .dlist li .iphone{background-position:0 -44px;height:26px;margin:14px 10px 0;width:95px;}
+.dlhome .dlist li .android{background-position:0 0;height:24px;margin:15px 8px 0 5px;width:112px;}
+.dlhome .dlist li .score{float:right;margin:5px 0 0 4px;}
+.dlhome .dlist li .score{background-position:0 -142px;height:11px;width:60px;}
+.dlhome .dlist a:hover {color:#FF6600;}
+.dlhome .dlist .n1{color:#555;}
+.dlhome .dlist .n2{color:#555;}
+.dlhome .dlist .c{color:#FD1664;margin-left:22px;}
+.dlhome .dlist li .text_right{float:left;}
+.dlhome .dlist li.sy{width:250px;}
+.dlhome .dlist li.ip{width:235px;}
+.dlhome .dlist li.ad{width:245px;}
+
+/*新版团购*/
+.gray {
+	color:#9a9a9a;
+}
+
+.tuan_pr {
+	color:#FD0465;
+	font-size:18px;
+}
+
+.sec_tuan_new .cs {
+	margin-right:60px;
+}
+
+.sec_tuan_new .h_hgroup {
+	z-index:3;
+}
+
+.sec_flight .h_hgroup {
+	z-index:2;
+}
+
+.sec_tuan_new .s_blocks {
+	padding:10px 17px;
+	width:696px;
+	height:188px;
+	position:relative;
+	z-index:2;
+}
+
+.s_block_x12 {
+	border:none;
+	margin-right:0;
+	padding-right:0;
+	width:2124px;
+}
+
+.s_block_x4 {
+	border:none;
+	width:165px;
+	margin-right:0px;
+	padding-right:12px;
+}
+
+.ie6 .s_block_x4 {
+	padding-right:6px;
+}
+
+.s_block_last {
+	border:none;
+	margin-right:0px;
+	padding-right:0px;
+}
+
+.tuan_thumb {
+	position:relative;
+	width:165px;
+	height:110px;
+	display:block;
+	overflow:hidden;
+}
+
+.tuan_thumb a {
+	display:block;
+}
+
+.tuan_thumb img {
+	width:165px;
+	height:110px;
+}
+
+.tuan_order {
+	width:33px;
+	height:33px;
+	display:block;
+	background:url(http://source.qunar.com/site/images/2011/tuan_order.gif) no-repeat 0 0;
+	position:absolute;
+	left:0;
+	top:0;
+	cursor:pointer;
+}
+
+.order1 {background-position:0 0;}
+.order2 {background-position:0 -35px;}
+.order3 {background-position:0 -70px;}
+.order4 {background-position:0 -105px;}
+.order5 {background-position:0 -140px;}
+.order6 {background-position:0 -175px;}
+.order7 {background-position:0 -210px;}
+.order8 {background-position:0 -245px;}
+.order9 {background-position:0 -280px;}
+.order10 {background-position:0 -315px;}
+.order11 {background-position:0 -350px;}
+.order12 {background-position:0 -385px;}
+
+.tuan_arrow {
+	width:17px;
+	height:190px;
+	display:block;
+	background-color:#fff;
+	position:absolute;
+	z-index:2;
+	top:10px;
+}
+
+.arrow_left{left:0;}
+.arrow_right{right:0;}
+
+.tuan_arrow a {
+	width:17px;
+	height:110px;
+	display:block;
+	outline:none;
+	background:url(http://source.qunar.com/site/images/2011/tuan_arrow.png) no-repeat 0 0;
+}
+
+.arrow_left a {background-position:0 0;}
+.arrow_right a {background-position:-17px 0;}
+.arrow_left a:hover {background-position:0 -110px;}
+.arrow_right a:hover {background-position:-17px -110px;}
+
+.tuan_detail {
+	border-right:1px solid #dedede;
+	padding:0px 5px;
+	width:160px;
+	margin-top:10px;
+}
+
+.s_block_last .tuan_detail {
+	border:none;
+	padding-right:0px;
+}
+
+.tuan_detail h6 {
+	margin-bottom:5px;
+	height:36px;
+}
+
+.tuan_detail .tuan_pr {
+	margin-right:5px;
+}
+
+.tuan_btn {
+	float:right;
+	width:52px;
+	height:19px;
+	display:block;
+	background:url(http://source.qunar.com/site/images/2011/tuan_btn.gif) no-repeat 0 0;
+	text-indent:-9999px;
+	overflow:hidden;
+	margin-top:4px;
+	margin-right:4px;
+}
+
+
+/*
+.galetter{position:fixed;bottom:5px;right:5px;width:213px;height:47px;display:block;background:url(http://source.qunar.com/site/images/2011/galetter.png) no-repeat 0 0;z-index:20000;}
+.galetter_content{width:213px;height:47px;display:block;}
+.galetter_close{width:12px;height:12px;position:absolute;right:2px;top:2px;}
+.letter{width:980px;margin:0px auto;}
+.letter_banner{width:980px;height:80px;background:url(http://source.qunar.com/site/images/2011/letter_banner.png) no-repeat 0 0;}
+.letter_content{width:756px;margin:30px auto 40px;color:#555;font-size:14px;}
+.letter_content p{line-height:24px;margin-bottom:30px;text-indent:2em;}
+.letter_content p.no_indent{text-indent:0;}
+*/
+
+/* right bottom ad */
+.ad_left_bottom {
+	position: fixed;bottom:5px;right:5px;width:120px;height:60px;display: block;z-index:10000;
+}
+

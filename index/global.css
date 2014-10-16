@@ -1,0 +1,149 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, div, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5 tahoma, arial, sans-serif; color:#555; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:"courier new", courier, monospace; }
+small { font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; color:#0069ca; }
+a:hover { text-decoration:none; color:#f60; }
+sup { vertical-align:text-top; }
+sub { vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+
+/* New added */
+hr { display: block; height: 1px; border: none; padding: 0; margin:0; clear:both; overflow:hidden; color:#fff; background-color:#FFF;}
+header { display:block;}
+footer { display:block;}
+iframe, img{ vertical-align:middle;}
+caption, th {text-align:left;}
+
+.red {
+	color:#fd1664;
+}
+
+.red a {
+	color:#fd1664;
+}
+
+.px14 {
+	font-size:14px;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.pr {
+	font-family:arial;
+}
+/* New added */
+
+/* >> The Magnificent CLEARFIX << */
+.clr:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clr { display: inline-block; }
+* html .clr { height: 1%; } /* Hides from IE-mac \*/
+.clr { display: block; }
+
+/*.clr, .clear { clear:both; height:0; overflow:hidden; }
+.clr_after { *zoom:1; }
+.clr_after:after { clear:both; display:block; height:0; visibility:hidden; content:"\20"; }*/
+.hide { display:none; }
+
+html { background: url(http://source.qunar.com/site/images/g/header.bg.png) repeat-x scroll 0 -124px #FFFFFF; }
+body { min-height:500px; background:url(http://source.qunar.com/site/images/g/body.bg.png) no-repeat scroll 50% 0 transparent; }
+
+.qn_header { margin:0 auto; width:990px; height:70px; background:#fff url(http://source.qunar.com/site/images/2011/qn.header.png) repeat-x 0 67px; color:#555; }
+.qn_header .inner { position:relative; z-index:2000; margin:0 auto; width:980px; height:70px; }
+.qn_header .h1 { position:relative; z-index:1; float:left; display:inline; padding:12px 0 0 17px; width:132px; height:52px; }
+.qn_header .h1 a { display:block; height:52px; background:url(http://source.qunar.com/site/images/2011/qn.header.png) 0 -8px no-repeat; outline:none; }
+.qn_header .h1 a span { display:none; }
+.qn_header .nav { float:left; display:inline; margin:35px -111px 0; padding:0 146px; height:35px; overflow:hidden; }
+.qn_header .nav ul { *zoom:1; }
+.qn_header .nav ul:after { clear:both; display:block; height:0; visibility:hidden; content:"\20"; }
+.qn_header .nav li { float:left; display:inline; height:35px; }
+.qn_header .nav li a { float:left; display:inline; padding-left:16px; height:35px; font:bold 14px/35px arial; outline:none; color:#555; }
+.qn_header .nav li a:hover { color:#f60; }
+.qn_header .nav li a span { float:left; display:inline; padding-right:16px; white-space:nowrap; cursor:pointer; }
+.qn_header .nav li.visa a,
+.qn_header .nav li.travel a,
+.qn_header .nav li.ask a { padding-left:13px; font:normal 12px/35px arial; }
+.qn_header .nav li.visa a span,
+.qn_header .nav li.travel a span,
+.qn_header .nav li.ask a span { padding-right:12px; }
+.qn_header .nav li .bgL,
+.qn_header .nav li .bgR { display:none; }
+.qn_header .nav li .new { position:relative; z-index:1; top:3px; display:inline-block; margin-right:-11px; width:11px; background:url(http://source.qunar.com/site/images/2011/qn.header.png) 0 -121px no-repeat; }
+.qn_header .nav li .new b { visibility:hidden; font-size:9px; }
+.qn_header .navctrl { float:left; display:inline; }
+.qn_header .navctrl .more { position:relative; z-index:1; display:block; margin:35px 0 0 -50px; width:25px; height:35px; background:url(http://source.qunar.com/site/images/2011/qn.header.png) -25px -118px no-repeat; cursor:pointer;}
+.qn_header .navctrl .less { position:relative; z-index:1; display:block; margin:35px 0 0 -50px; width:25px; height:35px; background:url(http://source.qunar.com/site/images/2011/qn.header.png) -50px -118px no-repeat; cursor:pointer;}
+.qn_header .qaccess { position:absolute; z-index:1; top:10px; right:10px; font:normal 12px/1.231 tahoma; }
+.qn_header .qaccess a { color:#555; }
+.qn_header .qaccess a:hover { color:#f60; }
+.qn_header .qaccess .line2 { position:absolute; z-index:1; top:35px; right:0; text-align:right; }
+.qn_header .qaccess a.username { color:#ff075b; }
+.qn_header .qaccess a.qnmobi { padding-left:12px; background:url(http://source.qunar.com/site/images/btns/bt_searchv3.png) -438px -597px no-repeat; *background-position:-438px -599px; _background-position:-438px -597px; color:#ff075b; }
+.qn_header .qaccess .da { position:absolute; left:48px; top:2px; border:1px solid #f4f8fa; cursor:pointer; }
+.qn_header .qaccess a.my { position:relative; padding-right:9px; }
+.qn_header .qaccess a.my:hover .da { border:1px solid #bcbcbc; background-color:#fafafa; }
+.qn_header .my_menu { display:none; position:absolute; right:126px; top:-3px; border:1px solid #666; width:69px; text-align:left; background-color:#fff; }
+.qn_header .my_menu .top { border-bottom:1px solid #666; height:21px; }
+.qn_header .my_menu .menu li a { display:block; padding-left:5px; height:21px; line-height:21px; color:#555; }
+.qn_header .my_menu .menu li a:hover { background-color:#4878da; color:#fff !important; }
+.qn_header .show_menu .my_menu { display:block; }
+.qn_header .show_menu a.my:hover { color:#000 !important; }
+.qn_header .show_menu a.my:hover .da { border:1px solid #f4f8fa; background:none; }
+
+.qn_header .nav { width:511px; }
+.qn_header .nav li.home { position:relative; z-index:1; }
+.qn_header .nav li.home a { font:bold 14px/35px arial; background:url(http://source.qunar.com/site/images/2011/qn.header.png) 0 -65px no-repeat; color:#39f; }
+.qn_header .nav li.home a:hover { color:#39f; }
+.qn_header .nav li.home a span { background:url(http://source.qunar.com/site/images/2011/qn.header.png) 100% -65px no-repeat; }
+.qn_header .nav li.home .bgL { position:absolute; z-index:1; top:32px; left:-146px; display:block; width:146px; height:3px; background:url(http://source.qunar.com/site/images/2011/qn.header.png) 0 -105px no-repeat; overflow:hidden; }
+.qn_header .nav li.home .bgR { position:absolute; z-index:1; top:32px; right:-146px; display:block; width:146px; height:3px; background:url(http://source.qunar.com/site/images/2011/qn.header.png) 0 -113px no-repeat; overflow:hidden; }
+
+.qn_header .nav li.visa a, .qn_header .nav li.travel a, .qn_header .nav li.train a {
+    font: 12px/35px arial;
+    padding-left: 13px;
+}
+.qn_header .nav li.visa a span, .qn_header .nav li.travel a span, .qn_header .nav li.train a span {
+    padding-right: 12px;
+}
+
+.qn_footer { clear:both; margin:0 auto; padding:10px 0; width:979px; line-height:1.231; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#848484; }
+.qn_footer .inner { margin:0 10px; text-align:right; }
+.qn_footer .gs { float:right; margin:0 20px 0 0; }
+.qn_footer .cr { margin-right:65px; padding-bottom:12px; }
+.jx-ie6 .qn_footer .cr{margin-right:60px;}
+.qn_footer .links { margin:0; padding:2px 0 0; list-style:none; }
+.qn_footer .links a,
+.qn_footer .links a:visited { margin:0 5px; text-decoration:none; color:#848484; }
+.qn_footer .links a:hover { color:#f60; }
+.qn_footer .links a.hl,
+.qn_footer .links a.hl:visited { color:#f60; }
+.qn_footer .copyright { margin:0; padding:8px 5px 0 0; }
+.qn_footer .copyright2 { margin:0; padding:8px 5px 0 0; text-align:center; }
+.qn_footer .copyright a,
+.qn_footer .copyright a:visited { text-decoration:none; color:#848484; }
+
+.seo { border-top:1px solid #ddd; }
+.seo .seo_links { clear:both; margin:10px 0 0; padding:0; color:#a7a7a7; }
+.seo .seo_links a,
+.seo .seo_links a:visited { margin-right:6px; text-decoration:none; color:#a7a7a7; }
+.seo .seo_links dt { float:left; padding-left:25px; font-weight:700; }
+.seo .seo_links dd { margin-left:88px; padding:0; word-spacing:5px; }
+.seo .seo_links dd span { float:left; margin-right:6px; white-space:nowrap; }
+.seo .seo_links dd .clr { clear:both; height:0; overflow:hidden; }
+
+.un_hd {position:relative;border-top:1px solid #20abae; background-color:#f7fdfb; color:#555; font: bold 14px/18px Tahoma; padding:7px 0 7px 10px; display:none;}
+.un_hd .more{position:absolute;top:7px;right:15px;font-size:12px;font-weight:100;}
+.un_hd .un_span {font:normal 12px/16px tahoma; color:#888;}
+.un_ct { border-left:6px solid #f7fdfb; border-right:6px solid #f7fdfb; padding:0 5px; margin-top:-1px; }
+.un_ft { border-bottom:1px solid #eaeceb; margin-bottom:6px; display:none; margin-top:-2px;}
+.un_ft .ftbg { background-color:#f5fefb; height:6px; overflow:hidden; }
+
+
